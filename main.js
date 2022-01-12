@@ -42,11 +42,6 @@ const square = (firstNumber) => {
 const twoLegs = multiply(2, 0.75)
 const fourLegs = multiply(4, 0.25)
 const totalLegsOverall = 60
-
-const legFunction = () => {
-    const totalLegs = twoLegs + fourLegs
-    const animals = divide(totalLegsOverall, totalLegs)
-    console.log(`The total number of animals is ${animals}`)
-}
-
-legFunction()
+const totalLegs = twoLegs + fourLegs
+const animals = divide(totalLegsOverall, totalLegs)
+console.log(`The total number of animals is ${animals}`)
